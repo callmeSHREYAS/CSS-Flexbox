@@ -1,0 +1,209 @@
+<html>
+
+<head>
+    <title>
+        My Second web page
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Phudu:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <div id="navbar">
+        <img id="logo" src="https://i.imgur.com/m1wXjqw.png" alt="logo">
+    </div>
+    <img id="banner" src="kk.png" alt="Banner">
+    <h1>
+        About Jovian
+    </h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                At <b>Jovian</b>, we're on a mission to build the world's
+                largest technical university, completely online.
+                Our online courses & bootcamp s help tech
+                enthusiasts learn industry-relevant skills,
+                build real-world projects, interact with a
+                global community of like-minded learners, and advance their careers.
+            </p>
+            <p>
+
+                We alse offer 2 industry focused Bootcamp
+            <ol>
+                <li>
+                    <a href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas" target="_blank">
+                        Jovian Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/zero-to-data-analyst-bootcamp" target="_blank">
+                        Jovian Data Science Bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="jason-goodman-bzqU01v-G54-unsplash.jpg" alt="idk" height="400" width="600">
+
+        </div>
+    </div>
+
+    <h2>Job Opportunities</h2>
+
+    <div id="jobs">
+        <table id="jobs-table" style="width: 100%;">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+                <th rowspan="2">Experience</th>
+                <th rowspan="2">Diwali Bonous</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td> </td>
+                <td>Bengluru</td>
+                <td>India</td>
+                <td>$ 12000</td>
+                <td>Mar 3, 2025</td>
+                <td>8 years</td>
+                <td>$1000</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>$ 125000</td>
+                <td>Mar 8, 2025</td>
+                <td>15 years</td>
+                <td>$4500</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>Sydeney</td>
+                <td>Austrailia</td>
+                <td>$ 200000</td>
+                <td>Nov 19,2023</td>
+                <td>10 years</td>
+                <td>$10000</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>ML Engineer</td>
+                <td colspan="2" style="text-align: center;">Remote</td>
+
+                <td>$ 200000</td>
+                <td>Mar 3, 2025</td>
+                <td>15 years</td>
+                <td>$10000</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="Application">
+        <h2>Submit your application</h2>
+        <!-- TODO - sample form - remove letter-->\
+
+
+        <form id="Applictaion-form" action="https://formbold.com/s/9xvOE" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Full Name</label> <br>
+                <input type="text" name="name" id="name" required placeholder="Shreyas Dipankar Vartak">
+            </div>
+            <div class="form-group">
+                <label for="email">Email id</label><br>
+                <input type="email" name="email" id="email" required placeholder="sdv2011@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label><br>
+                <input type="tel" name="phone" id="phone" required placeholder="+919960757817">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label><br>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied for</label><br>
+
+                <select required>
+                    <option value="">Select Position</option>
+                    <option>Frontend Developer</option>
+                    <option>Full Stack Developer</option>
+                    <option>Data Scientist</option>
+                    <option>ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="textarea">Cover Letter</label><br>
+                <textarea rows="5" name="textarea" id="textarea"
+                    placeholder="Explain what makes you suitable for job"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" name="terms" id="terms" required>
+                    I agree to the terms and condition
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Application">
+            </div>
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a style="font-size: 18px;" href="https://jovian.com/learn/data-analysis-with-python-zero-to-pandas"
+                    target="_blank">Cources</a>
+            </li>
+            <li>
+                <a href="https://jovian.com/" style="font-size: 18px;" target="_blank">Programs</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=dX8396ZmSPk&t=2506s" style="font-size: 18px;"
+                    target="_blank">Youtube</a>
+            </li>
+        </ul>
+        <br>
+
+        <div style="font-size: 12px;">© 2024,Jovian</div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
