@@ -12,6 +12,13 @@ body {
     color: #444444;
 }
 
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    body{   
+        background-color: lightblue;
+     
+    }
+}
+
 h1 {
     font-size: 2rem;
 }
