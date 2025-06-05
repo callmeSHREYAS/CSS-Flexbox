@@ -196,6 +196,7 @@ h2 {
 #footer-links li {
     margin: 4px 16px;    
 }
+
 #cp{
     font-size: 0.875rem;
     color: #71717A;
@@ -235,6 +236,13 @@ h2 {
 select{
     width: auto;
 }
+
+
+#footer-links li {
+    display: inline;
+}
+
+        
 }
 
 @media screen and (min-width: 768px) {
